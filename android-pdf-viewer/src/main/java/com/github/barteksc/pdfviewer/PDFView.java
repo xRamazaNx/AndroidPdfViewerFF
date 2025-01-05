@@ -395,7 +395,7 @@ public class PDFView extends RelativeLayout {
         }
     }
 
-    void enableDoubletap(boolean enableDoubletap) {
+    public void enableDoubletap(boolean enableDoubletap) {
         this.doubletapEnabled = enableDoubletap;
     }
 
